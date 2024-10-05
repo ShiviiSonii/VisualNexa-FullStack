@@ -35,14 +35,13 @@ const Home = () => {
     <div className="flex flex-1">
       <div className="home-container">
         <div className="home-posts">
-          <h2 className="h3-bold md:h2-bold text-left w-full">Home Feed</h2>
           <div className="flex gap-2 w-full max-w-5xl">
           {/* Save icon */}
           <img
             src="/assets/icons/home.svg"
             width={36}
             height={36}
-            alt="edit"
+            alt="home"
             className="invert-white"
           />
           {/* Title */}

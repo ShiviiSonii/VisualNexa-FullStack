@@ -16,7 +16,19 @@ const AllUsers = () => {
   return (
     <div className="common-container">
       <div className="user-container">
-        <h2 className="h3-bold md:h2-bold text-left w-full">All Users</h2>
+        {/* <h2 className="h3-bold md:h2-bold text-left w-full">All Users</h2> */}
+        <div className="flex gap-2 w-full max-w-5xl">
+          {/* Save icon */}
+          <img
+            src="/assets/icons/people.svg"
+            width={36}
+            height={36}
+            alt="users"
+            className="invert-white"
+          />
+          {/* Title */}
+          <h2 className="h3-bold md:h2-bold text-left w-full">All Users</h2>
+        </div>
         {isLoading && !creators ? (
           <Loader />
         ) : (
