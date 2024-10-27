@@ -18,13 +18,10 @@ const Topbar = () => {
     <section className="topbar">
       <div className="flex-between py-4 px-5">
         <Link to="/" className="flex gap-3 items-center">
-          {/* <img
-            src="/assets/images/logo.svg"
-            alt="logo"
-            width={130}
-            height={325}
-          /> */}
-          <span>VisualNexa</span>
+          <div className="flex items-center gap-2 ">
+            <img src="/assets/icons/favicon.ico" alt="logo" height={20} width={20}/>
+            <h2 className="text-white text-xl font-thin">VisualNexa</h2>
+          </div>
         </Link>
 
         <div className="flex gap-4">
