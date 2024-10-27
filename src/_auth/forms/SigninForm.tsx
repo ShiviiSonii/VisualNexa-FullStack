@@ -24,8 +24,8 @@ const SigninForm = () => {
   const form = useForm<z.infer<typeof SigninValidation>>({
     resolver: zodResolver(SigninValidation),
     defaultValues: {
-      email: "",
-      password: "",
+      email: "demo_user@gmail.com",
+      password: "demo1234567",
     },
   });
 
@@ -54,8 +54,10 @@ const SigninForm = () => {
   return (
     <Form {...form}>
       <div className="sm:w-420 flex-center flex-col">
-        <img src="/assets/icons/favicon.ico" alt="logo" />
-
+        <div className="flex items-center gap-2 ">
+          <img src="/assets/icons/favicon.ico" alt="logo" height={20} width={20}/>
+          <h2 className="text-white text-xl font-thin">VisualNexa</h2>
+        </div>
         <h2 className="h3-bold md:h2-bold pt-2">
           Log in to your account
         </h2>
