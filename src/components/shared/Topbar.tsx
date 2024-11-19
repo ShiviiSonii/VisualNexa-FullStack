@@ -20,7 +20,7 @@ const Topbar = () => {
         <Link to="/" className="flex gap-3 items-center">
           <div className="flex items-center gap-2 ">
             <img src="/assets/icons/favicon.ico" alt="logo" height={20} width={20}/>
-            <h2 className="text-white text-xl font-thin">VisualNexa</h2>
+            <h2 className="text-white text-xl font-thin">DevNexa</h2>
           </div>
         </Link>
 

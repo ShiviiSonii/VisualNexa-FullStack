@@ -56,7 +56,7 @@ const SigninForm = () => {
       <div className="sm:w-420 flex-center flex-col">
         <div className="flex items-center gap-2 ">
           <img src="/assets/icons/favicon.ico" alt="logo" height={20} width={20}/>
-          <h2 className="text-white text-xl font-thin">VisualNexa</h2>
+          <h2 className="text-white text-xl font-thin">DevNexa</h2>
         </div>
         <h2 className="h3-bold md:h2-bold pt-2">
           Log in to your account
