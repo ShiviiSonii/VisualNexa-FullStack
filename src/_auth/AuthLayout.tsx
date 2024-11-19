@@ -16,7 +16,7 @@ export default function AuthLayout() {
           </section>
 
           <img
-            src="/assets/images/loginpage.jpg"
+            src="/assets/images/devnexa.jpg"
             alt="logo"
             className="hidden xl:block h-screen w-1/2 object-cover bg-no-repeat"
           />
